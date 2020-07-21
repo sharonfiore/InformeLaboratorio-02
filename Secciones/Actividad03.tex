@@ -1,86 +1,103 @@
 \section{PROCEDIMIENTO} 
 
 \begin{itemize}
-\subsection{Ejercicio 1: Envios}
-	\subsubsection{Enunciado}
+\subsection{ACTIVIDAD 01}
+	\subsubsection{Importación de Datos usando el Wizard - SQL MANAGMENT}
 
-		\item El siguiente diagrama E / R simplificado describe el envío de mercancías. Los lotes pertenecientes a ciertos grupos se
-envían a ciertos destinos en varios países a través de diferentes modos de transporte. Un cierto centro de costos es responsable de cada envío. La dimensión de tiempo consiste en mes y año.
+	\item Primero hay que crear una base de datos llamada BDTEST.
 
 	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio1}
+	\includegraphics[width=14cm]{./Imagenes/tarea1}
 	\end{center}
-
-     \subsubsection{Modelo Dimensional }
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio1_dimensional}
-	\end{center}
-   \subsubsection{Diagrama Físico }
 	
+	\item  Ahora importaremos nuestra base de datos desde AdventureWorks.
 	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio1_fisico}
+	\includegraphics[width=14cm]{./Imagenes/tarea1_2}
 	\end{center}
 
- \subsubsection{Script }
 \begin{center}
-	\includegraphics[width=8cm]{./Imagenes/ej1_script1}
-	\includegraphics[width=14cm]{./Imagenes/ej1_script2}
+	\includegraphics[width=14cm]{./Imagenes/tarea1_3}
 	\end{center}
-
-
-\subsection{Ejercicio 2: : Reservas de Viaje}
-
-\subsubsection{Enunciado}
-
-		\item En este esquema de E / R, un cliente (que es de cierto tipo) reserva un viaje en una agencia de viajes. La agencia de viajes trabaja para un determinado operador turístico. El viaje va a un destino determinado que pertenece a un país determinado.
-La dimensión de tiempo consiste en mes, trimestre y año.
-
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio2}
-	\end{center}
-
-     \subsubsection{Modelo Dimensional }
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio2_dimensional}
-	\end{center}
-   \subsubsection{Diagrama Físico }
-	
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio2_fisico}
-	\end{center}
-
- \subsubsection{Script }
 \begin{center}
-	\includegraphics[width=8cm]{./Imagenes/ej2_script1}
-	\includegraphics[width=14cm]{./Imagenes/ej2_script2}
+	\includegraphics[width=14cm]{./Imagenes/tarea1_4}
 	\end{center}
-
-\subsection{Ejercicio 3: Gestión de proyectos}
-
-\subsubsection{Enunciado}
-
-		\item Este esquema E / R simplificado muestra un caso gestión del proyecto. El proyecto para un cliente se divide en varios paquetes de trabajo y siempre una persona es responsable de completar la tarea. Se cuida en un lugar determinado.
-La dimensión de tiempo consiste de día, mes y año.
-
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio3}
-	\end{center}
-
-     \subsubsection{Modelo Dimensional }
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio3_dimensional}
-	\end{center}
-   \subsubsection{Diagrama Físico }
-	
-	\begin{center}
-	\includegraphics[width=14cm]{./Imagenes/ejercicio3_fisico}
-	\end{center}
-
- \subsubsection{Script }
 \begin{center}
-	\includegraphics[width=8cm]{./Imagenes/ej3_script1}
-	\includegraphics[width=14cm]{./Imagenes/ej3_script2}
+	\includegraphics[width=14cm]{./Imagenes/tarea1_5}
 	\end{center}
+
+\subsection{ACTIVIDAD 02}
+
+\subsubsection{Creación del primer paquete DTSX}
+
+		\item Abriremos un Proyecto nuevo en Visual Studio
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_1}
+	\end{center}
+
+\item En la ventana nueva, sección Solución Explorer, Agrego el paquete generado antes.
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_2}
+	\end{center}
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_3}
+	\end{center}
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_4}
+	\end{center}
+
+\item  En la siguiente ventana mostramos el paquete que se ha importado
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_5}
+	\end{center}
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_6}
+	\end{center}
+
+\item En la siguiente ventana mostramos el paquete que se ha importado
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_7}
+	\end{center}
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_8}
+	\end{center}
+
+\item Editamos el componente Scrtipt Task Editor
+\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_9}
+	\end{center}
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_10}
+	\end{center}
+\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_11}
+	\end{center}
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_12}
+	\end{center}
+
+\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_13}
+	\end{center}
+
+	\begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_14}
+	\end{center}
+
+\item Guardamos y los ejecutamos.
+   \begin{center}
+	\includegraphics[width=14cm]{./Imagenes/tarea2_15}
+	\end{center}
+
+
 
 \end{itemize}
 		
